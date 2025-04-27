@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# Project Pages<br>
+- Front: [cloneProjectFront](https://github.com/laeongmulti/cloneProjectFront)<br>
+- Back: [cloneProjectBackBoot](https://github.com/laeongmulti/cloneProjectBackBoot)<br>
+- DB: [cloneProjectDB](https://github.com/laeongmulti/cloneProjectDB)<br>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Front 설치방법<br>
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 주의<br>
+- 이 방법은 개발용이기때문에 build 를 하지 않음
+
+**소개**<br>
+- 편의성에 목적을 둔 Docker를 활용한 개발용 서버<br>
+- WebPack Polling을 활용한 실시간 연동<br>
+
+- Front port: 5173<br>
+
+**설치방법**<br>
+인터넷에서 Docker Desktop 필수 설치<br>
+
+터미널
+````bash
+docker-compose up --build
+````
+
+localhost:5173 서버에서 확인 가능<br>
+
+Docker의 좌측 메뉴 Images 에서 껏다켰다 가능<br>

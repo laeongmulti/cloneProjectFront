@@ -24,4 +24,4 @@ docker-compose up --build
 
 localhost:5173 서버에서 확인 가능<br>
 
-Docker의 좌측 메뉴 Images 에서 껏다켰다 가능<br>
+Docker의 좌측 메뉴 Containers 에서 껏다켰다 가능<br>

@@ -1,7 +1,7 @@
 <template>
-  <RouterView />
+  <div>404 page</div>
 </template>
 
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+// script part
 </script>

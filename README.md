@@ -1,27 +1,45 @@
-# Project Pages<br>
-- Front: [cloneProjectFront](https://github.com/laeongmulti/cloneProjectFront)<br>
-- Back: [cloneProjectBackBoot](https://github.com/laeongmulti/cloneProjectBackBoot)<br>
-- DB: [cloneProjectDB](https://github.com/laeongmulti/cloneProjectDB)<br>
+# vue-project
 
-# Front 설치방법<br>
+This template should help get you started developing with Vue 3 in Vite.
 
-**주의**<br>
-- 이 방법은 개발용이기때문에 build 를 하지 않음
+## Recommended IDE Setup
 
-**소개**<br>
-- 편의성에 목적을 둔 Docker를 활용한 개발용 서버<br>
-- WebPack Polling을 활용한 실시간 연동<br>
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-- Front port: 5173<br>
+## Type Support for `.vue` Imports in TS
 
-**설치방법**<br>
-인터넷에서 Docker Desktop 필수 설치<br>
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-터미널
-````bash
-docker-compose up --build
-````
+## Customize configuration
 
-localhost:5173 서버에서 확인 가능<br>
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-Docker의 좌측 메뉴 Containers 에서 껏다켰다 가능<br>
+## Project Setup
+
+```sh
+pnpm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+pnpm dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+pnpm build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+pnpm test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+pnpm lint
+```
